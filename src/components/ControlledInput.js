@@ -1,7 +1,7 @@
 // Code ControlledInput Component Here
 import React from 'react';
 
-class ControlledInput extends React.Component {
+export default class ControlledInput extends React.Component {
   state = {
     value: '',
   }
@@ -24,6 +24,3 @@ class ControlledInput extends React.Component {
     );
   }
 }
-
-export default ControlledInput;
- 
